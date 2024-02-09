@@ -1,7 +1,161 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    
 }
+
+/****** MON CODE ICI ***********/
+.entete{
+    display: flex;
+    justify-content: space-between;
+}
+
+.entete_ensemble{
+    display: flex;
+    gap: 10px;
+}
+
+.entete_z{
+    margin-right: 25px;
+}
+
+.entete_z:hover{
+    color:blue;
+    border-top: 3px solid blue;
+    cursor: pointer;
+    
+}
+.entete_e:hover{
+    color:blue;
+    border-top: 3px solid blue;
+    cursor: pointer;
+}
+
+
+.imglogo{
+    width: 100px;
+    margin: 10px 10px 10px 0px;
+}
+
+.i_recherche{
+    border: 3px solid ;
+}
+
+
+
+.lu_filtre{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.lu_filtre div{
+    display: flex;
+    border: 1px solid #D9D9D9;
+    border-radius: 20PX 20PX 20PX 20PX;
+    width: 160px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.taille_bouton{
+    width: 132px;
+    height: 49px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    color: white;
+    margin-left: -5px;
+    border-color: #0065FC;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.taille_search{
+    height: 43px;
+    width: 214px;
+    margin-left: -5px;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.taille_i{
+    border: 1px solid #F2F2F2;
+    height: 33px;
+    width: 27px;
+    background-color: #F2F2F2;
+    padding-top: 14px;
+    padding-left: 14px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.lu_filtre div:hover{
+    background-color: #DEEBFF;
+    cursor: default;
+}
+
+.lu_filtre div i{
+    margin-right: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+}
+
+.p1{
+    margin-left: 2em;
+}
+
+.p3{
+    margin-right: 10em;
+}
+
+.class_activite{
+    padding: 10px;
+    margin-bottom: 54px;
+}
+
+.plus{
+    font-weight: bold;
+}
+
+.activite {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.activite img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.activite h3{
+    padding-top: 5px;
+    padding-bottom: 5PX;
+    padding-left: 10px;
+    
+}
+
+.activite_card{
+    width: 24%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+
 
 :root {
     --main-color: #0065FC;
@@ -16,6 +170,10 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    min-width: 320px;
 }
 
 .main-container {
@@ -40,10 +198,19 @@ a {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+
 }
 
 .card img {
     object-fit: cover;
+    width: 100%;
+    
+}
+
+.card_img{
+    border-radius: 20px 20px 0 0;
+    height: 100px;
 }
 
 .card-title {
@@ -62,6 +229,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .hebergements-and-populaires section {
@@ -74,7 +242,25 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    
 }
+
+.card_hebergement{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-between;
+}
+
+.card_hebergement a{
+    width: 30%;
+}
+
+.card_hebergement .card{
+    margin-top: 33px;
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
@@ -164,4 +350,9 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .activite_card{
+        width: 100%;
+        
+    }
 }
