@@ -629,6 +629,8 @@ a {
     **/
     
 
+    
+
     .entete{
         display: inline;
     }
@@ -723,10 +725,11 @@ a {
 
     .hebergements-and-populaires section{
         border-radius: unset;
+        
     }
 
-    .col{
-        background: white;
+    .hebergements.col{
+        background-color: white !important;
     }
 
     .class_activite{
@@ -763,6 +766,8 @@ a {
     .lu_filtre .bouton_filtre i{
         margin-right: 4px;
     }
+
+
 
    
 }
