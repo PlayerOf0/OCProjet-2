@@ -188,6 +188,27 @@ h1{
 
 */
 
+.espace_heb {
+    position: relative;
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+
+.info-circle {
+    display: inline-block;
+    width: 27px; /* Largeur du cercle */
+    height: 27px; /* Hauteur du cercle */
+    border-radius: 50%; /* Pour rendre le cercle arrondi */
+    border: 2px solid #D2D2D2; /* Couleur et épaisseur de la bordure */
+    text-align: center; /* Centrage horizontal */
+    line-height: 27px; /* Centrage vertical */
+    margin-right: 5px; /* Marge à droite pour séparer le cercle du texte */
+}
+
+.info-circle i {
+    font-size: 16px; /* Taille de l'icône */
+    color: #0065FC; /* Couleur de l'icône */
+}
+
 
 
 li{
