@@ -4,7 +4,6 @@
     
 }
 
-/****** MON CODE ICI ***********/
 h1{
     margin-bottom: 0px;
 }
@@ -85,14 +84,6 @@ h1{
     margin-left: 10px;
 }
 
-/*
-.filtre h2{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-*/
 
 .filtre_span{
     font-weight: bold;
@@ -101,29 +92,7 @@ h1{
     padding-top: 11px;
 }
 
-/*
 
-
-.lu_filtre{
-    display: flex;
-    gap: 10px;
-    
-}
-
-.lu_filtre div{
-    display: flex;
-    border: 3px solid #D9D9D9;
-    border-radius: 29PX;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-*/
 
 
 .form{
@@ -179,28 +148,11 @@ h1{
 }
 
 
-/*
-.lu_filtre div:hover{
-    background-color: #DEEBFF;
-    cursor: default;
-}
 
-.lu_filtre div i{
-    margin-right: 10px;
-}
-
-.filtre{
-    display: flex;
-    gap: 10px;
-}
-
-
-
-*/
 
 .espace_heb {
     position: relative;
-    /* Ajoutez d'autres styles selon vos besoins */
+    
 }
 
 .info-circle {
@@ -245,9 +197,10 @@ footer{
 }
 
 .plus{
+    display: block;
+    padding-top: 25px;
     font-weight: bold;
     margin-bottom: 0px;
-    padding-top: 13px;
 }
 
 .activite {
@@ -338,6 +291,7 @@ a {
 
 .card-title {
     font-size: 16px;
+    
 }
 
 .card_hebergement .card-title {
@@ -438,6 +392,11 @@ a {
     margin-bottom: 5px;
 }
 
+.card-content .txt-heb {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
 .search_bouton{
     display: none;
 }
@@ -452,7 +411,41 @@ a {
 .liste{
     list-style: none;
 }
+
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Pour répartir les colonnes de manière égale */
+    background-color: #F2F2F2;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
   
+.footer-column {
+    flex: 1; /* Pour que chaque colonne prenne autant d'espace */
+    text-align: left; /* Alignement du texte à gauche dans chaque colonne */
+}
+  
+.footer-column ul {
+    list-style: none; /* Supprimer les puces de la liste */
+    padding: 0;
+}
+  
+.footer-column h3 {
+    margin-top: 0; /* Supprimer la marge par défaut du titre */
+}
+  
+
+
+.card-subtitle{
+    margin-bottom: 3px;
+}
+
+.card-txt .txt-heb{
+    margin-left: 10px;
+    
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -492,27 +485,6 @@ a {
         font-size: 13px;
     }
 
-
-    /*
-    .filtre {
-        display: table-caption;
-        gap: 10px;
-        
-    }
-
-    .lu_filtre {
-        display: flex;
-        gap: 10px;
-        
-    }
-    
-    .filtre h2{
-        margin-bottom: 10px;
-    }
-    
-    
-    
-    */
     
     .filtre{
         display: unset;
@@ -593,43 +565,6 @@ a {
         
     }
 
-
-
-
-/**
-
-.filtre{
-        display: flex;
-        margin-left: 3%;
-    }
-    
-
-    .lu_filtre{
-
-        flex-wrap: wrap;
-
-    }
-
-
-
-
-*/
-    
-    
-    /**
-    .lu_filtre div{
-        width: 46%;
-        font-size: 10px;
-
-        
-    }
-    
-    
-    
-    **/
-    
-
-    
 
     .entete{
         display: inline;
