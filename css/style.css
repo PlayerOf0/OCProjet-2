@@ -496,7 +496,10 @@ footer {
         white-space: nowrap;
     }
     
-    
+    .filtre_span{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
     
 }
 
