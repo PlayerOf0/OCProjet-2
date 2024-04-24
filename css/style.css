@@ -24,9 +24,9 @@ h1{
 
 .entete_z{
     margin-right: 25px;
-    color:blue;
-    border-top: 3px solid blue;
+    border-top: 3px solid transparent;
     cursor: pointer;
+    padding-top: 15px;
 }
 
 .entete_z:hover{
@@ -35,6 +35,14 @@ h1{
     cursor: pointer;
     
 }
+.entete_e{
+    margin-right: 25px;
+    border-top: 3px solid transparent;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+
 .entete_e:hover{
     color:blue;
     border-top: 3px solid blue;
@@ -44,7 +52,7 @@ h1{
 
 .imglogo{
     width: 100px;
-    margin: 10px 10px 10px 0px;
+    margin: 20px 10px 10px 0px;
 }
 
 .i_recherche{
@@ -214,7 +222,7 @@ footer{
 
 .activite img{
     width: 100%;
-    height: 374px;
+    height: 290px;
     border-radius: 20px 20px 0px 0px;
     margin-right: 20px;
     object-fit: cover;
@@ -273,6 +281,7 @@ body {
     padding: 0;
     max-width: 1440px;
     min-width: 320px;
+    margin-top: 0px;
 }
 
 .main-container {
@@ -610,6 +619,14 @@ footer {
         align-items: center;
     }
 
+    .entete_z{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 3px solid transparent;
+        padding-bottom: 15px;
+    
+    }
     .entete_z:hover{
 
         color:#0065FC;
@@ -618,25 +635,27 @@ footer {
         cursor: pointer;
         
     }
+
+
+    
+    .entete_e{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 3px solid transparent;
+        padding-bottom: 15px;
+    }
+
     .entete_e:hover{
 
         color:#0065FC;
         border-bottom: 3px solid #0065FC;
         border-top: none;
         cursor: pointer;
+        padding-bottom: 15px;
     }
 
-    .entete_z{
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-    
-    }
-    .entete_e{
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-    }
+
     .entete_ensemble{
         border-bottom: 3px solid #F2F2F2;
     }
