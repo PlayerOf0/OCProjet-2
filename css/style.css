@@ -5,8 +5,18 @@
 }
 
 h1{
+    font-size: 22px;
     margin-bottom: 0px;
 }
+h2{
+    font-size: 22px;
+}
+
+::placeholder {
+    color: black; /* Changer la couleur ici */
+}
+
+
 .ville{
     margin-bottom: 30px;
 }
@@ -98,7 +108,7 @@ h1{
 
 .filtre_span{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     margin-right: 10px;
     padding-top: 11px;
 }
@@ -280,7 +290,6 @@ body {
     margin-left: auto;
     padding: 0;
     max-width: 1440px;
-    min-width: 320px;
     margin-top: 0px;
 }
 
@@ -462,7 +471,7 @@ footer {
 }
   
 .footer-column h3 {
-    margin-top: 0; /* Supprimer la marge par défaut du titre */
+    margin-top: 0;
 }
   
 
@@ -615,15 +624,16 @@ footer {
 
     .entete_ensemble{
         display: flex;
+        gap: 0;
         justify-content: center;
         align-items: center;
     }
 
     .entete_z{
-        width: 100%;
+        width: 50%;
         text-align: center;
         margin: 0px;
-        border-bottom: 3px solid transparent;
+        border-bottom: 3px solid #F2F2F2;
         padding-bottom: 15px;
     
     }
@@ -633,16 +643,15 @@ footer {
         border-bottom: 3px solid #0065FC;
         border-top: none;
         cursor: pointer;
-        
     }
 
 
     
     .entete_e{
-        width: 100%;
+        width: 50%;
         text-align: center;
         margin: 0px;
-        border-bottom: 3px solid transparent;
+        border-bottom: 3px solid #F2F2F2;
         padding-bottom: 15px;
     }
 
@@ -655,11 +664,11 @@ footer {
         padding-bottom: 15px;
     }
 
-
+/*
     .entete_ensemble{
         border-bottom: 3px solid #F2F2F2;
     }
-
+*/
     .taille_bouton{
         display: none;
     }
@@ -681,6 +690,7 @@ footer {
         font-size: 18px;
         
     }
+    
 
     .taille_i{
         padding-left: 15px;
