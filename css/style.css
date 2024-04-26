@@ -30,6 +30,8 @@ h2{
 .entete_ensemble{
     display: flex;
     gap: 10px;
+    list-style: none;
+    margin-top: 0px;
 }
 
 .entete_z{
@@ -152,7 +154,7 @@ h2{
     border-right: none;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 5px;
 }
 
@@ -627,6 +629,8 @@ footer {
         gap: 0;
         justify-content: center;
         align-items: center;
+        padding: 0px;
+
     }
 
     .entete_z{
@@ -664,11 +668,6 @@ footer {
         padding-bottom: 15px;
     }
 
-/*
-    .entete_ensemble{
-        border-bottom: 3px solid #F2F2F2;
-    }
-*/
     .taille_bouton{
         display: none;
     }
