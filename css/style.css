@@ -90,8 +90,9 @@ header{
     padding-top: 15px;
     padding-bottom: 15px;
 
+    
 
-    margin-right: 16px;
+    margin-right: 17px;
     font-weight: bold;
     display: flex;
     justify-content: flex-start;
@@ -112,7 +113,7 @@ header{
 
 .filtre_span{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     margin-right: 10px;
     padding-top: 11px;
 }
@@ -226,6 +227,7 @@ footer{
     padding-top: 25px;
     font-weight: bold;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 .activite {
@@ -474,10 +476,9 @@ footer {
     padding: 0;
 }
   
-.footer-column h3 {
+.footer-column h2 {
     margin-top: 0;
 }
-  
 
 
 .card-subtitle{
