@@ -21,11 +21,13 @@ h2{
     margin-bottom: 30px;
 }
 
-.entete{
+
+header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
+
 
 .entete_ensemble{
     display: flex;
@@ -36,28 +38,28 @@ h2{
 
 .entete_z{
     margin-right: 25px;
-    border-top: 3px solid transparent;
+    border-top: 2px solid transparent;
     cursor: pointer;
     padding-top: 15px;
 }
 
 .entete_z:hover{
-    color:blue;
-    border-top: 3px solid blue;
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
     cursor: pointer;
     
 }
 .entete_e{
     margin-right: 25px;
-    border-top: 3px solid transparent;
+    border-top: 2px solid transparent;
     cursor: pointer;
     padding-top: 15px;
 }
 
 
 .entete_e:hover{
-    color:blue;
-    border-top: 3px solid blue;
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
     cursor: pointer;
 }
 
@@ -154,7 +156,7 @@ h2{
     border-right: none;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 5px;
 }
 
@@ -234,7 +236,7 @@ footer{
 
 .activite img{
     width: 100%;
-    height: 290px;
+    height: 380px;
     border-radius: 20px 20px 0px 0px;
     margin-right: 20px;
     object-fit: cover;
@@ -542,7 +544,7 @@ footer {
     }
 
     .activite img{
-        height: 280px;
+        height: 200px;
     }
     
 }
@@ -637,14 +639,14 @@ footer {
         width: 50%;
         text-align: center;
         margin: 0px;
-        border-bottom: 3px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 15px;
     
     }
     .entete_z:hover{
 
         color:#0065FC;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
         border-top: none;
         cursor: pointer;
     }
@@ -655,14 +657,14 @@ footer {
         width: 50%;
         text-align: center;
         margin: 0px;
-        border-bottom: 3px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
         padding-bottom: 15px;
     }
 
     .entete_e:hover{
 
         color:#0065FC;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 2px solid #0065FC;
         border-top: none;
         cursor: pointer;
         padding-bottom: 15px;
@@ -750,7 +752,7 @@ footer {
 
 
     .activite img {
-        height: 200px;
+        height: 141px;
     }
 
     .lu_filtre .bouton_filtre i{
